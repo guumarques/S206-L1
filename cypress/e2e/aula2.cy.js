@@ -28,6 +28,12 @@ describe('Testes de criação, registro e login', () => {
     cy.get('#password').type(infos[1])
     cy.get('.btn-primary').click()
     cy.get('h1.ng-binding').should('contain.text', infos[0])
+    cy.get('.ng-binding > a').click()
+    cy.get('.btn').click()
+    cy.get('#username').type(infos[0])
+    cy.get('#password').type(infos[1])
+    cy.get('.btn-primary').click()
+    cy.get('.ng-binding').should('contain.text', 'Username or password is incorrect')
   })
 })
 
