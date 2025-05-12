@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "16f10c11-53e5-4c5d-bc51-ab31863bf09c",
+		"name": "Aula 1 - POSTMAN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38465899"
+	},
+	"item": [
+		{
+			"name": "localiza pokemon com sucesso",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "não localiza pokemon(não existe)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "end point falho localiza pokemon",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
